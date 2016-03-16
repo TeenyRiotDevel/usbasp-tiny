@@ -193,7 +193,7 @@ these macros are defined, the boot loader uses them.
 /* Application Checksum Section */
 #ifdef APPCHECKSUM
 /* max 6200ms to not overflow idlePolls variable */
-#   define AUTO_EXIT_MS    5000
+#   define AUTO_EXIT_MS    2000
 
 /* number of bytes before the boot loader vectors to store the application checksum */
 #   define APPCHECKSUM_POSITION    6
